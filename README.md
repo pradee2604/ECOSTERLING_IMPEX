@@ -6,27 +6,25 @@ This is a multi-page website for **Eazy Solar**, built to showcase solar product
 It is inspired by [Elsol](https://elsol.co.in/) but redesigned with a unique look and feel.
 
 ---
-
 ## 📂 Project Structure
 
+```text
 eazy-solar-website/
-
-'''
-├── index.html # Home page
-├── about.html # About Us
-├── products.html # Products & Solutions
-├── projects.html # Projects Showcase
-├── services.html # Services
-├── contact.html # Contact page
+│
+├── index.html          # Home page
+├── about.html          # About Us
+├── products.html       # Products & Solutions
+├── projects.html       # Projects Showcase
+├── services.html       # Services
+├── contact.html        # Contact page
 │
 ├── css/
-│ └── style.css # Main stylesheet
+│   └── style.css       # Main stylesheet
 │
-├── img/ # Images (logo, banners, product photos)
+├── img/                # Images (logo, banners, product photos)
 │
-└── README.md # Project documentation
+└── README.md           # Project documentation
 
-'''
 ---
 
 ## 🚀 Deployment
