@@ -10,7 +10,8 @@ It is inspired by [Elsol](https://elsol.co.in/) but redesigned with a unique loo
 ## 📂 Project Structure
 
 eazy-solar-website/
-│
+
+
 ├── index.html # Home page
 ├── about.html # About Us
 ├── products.html # Products & Solutions
