@@ -11,7 +11,7 @@ It is inspired by [Elsol](https://elsol.co.in/) but redesigned with a unique loo
 
 eazy-solar-website/
 
-
+'''
 ├── index.html # Home page
 ├── about.html # About Us
 ├── products.html # Products & Solutions
@@ -26,7 +26,7 @@ eazy-solar-website/
 │
 └── README.md # Project documentation
 
-
+'''
 ---
 
 ## 🚀 Deployment
