@@ -1,21 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Contact - ECOSTERLING IMPEX</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | ECOSTERLING IMPEX PRIVATE LIMITED</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header><div class="logo">ECOSTERLING IMPEX</div></header>
-  <section class="info">
-    <h2>Contact Us</h2>
-    <p>We’d love to hear from you. Reach out for inquiries, partnerships, or support.</p>
-    <ul>
-      <li>Email: info@ecosterling.com</li>
-      <li>Phone: +91 9876543210</li>
-      <li>Address: Bengaluru, Karnataka, India</li>
-    </ul>
+  <header class="navbar">
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero small-hero">
+    <div class="hero-content container">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you. Reach out to us for inquiries, collaborations, or support.</p>
+    </div>
   </section>
-  <footer><p>&copy; 2025 ECOSTERLING IMPEX</p></footer>
+
+  <section class="contact-section container">
+    <div class="grid two-columns">
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form action="https://formsubmit.co/iampradeep26@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h2>Reach Us At</h2>
+        <p><strong>Email:</strong> support@ecosterling.com</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Address:</strong> ECOSTERLING IMPEX PRIVATE LIMITED, Hanumanthapura, Maralawadi, Bangalore South, India</p>
+        <h3>ಸಂಪರ್ಕಿಸಿ</h3>
+        <p>ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಅಭಿಪ್ರಾಯಗಳು ನಮಗೆ ಬಹಳ ಮುಖ್ಯ. ದಯವಿಟ್ಟು ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ, ನಾವು ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸುತ್ತೇವೆ.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 ECOSTERLING IMPEX PRIVATE LIMITED | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
