@@ -1,157 +1,193 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
+/* Global Styles */
 body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  background: #f8f9fa;
   color: #333;
 }
 
-/* Header */
-header {
-  background: #003366;
-  color: white;
-  padding: 15px 50px;
+h1, h2, h3 {
+  color: #003366;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 50px;
+  background: #003366;
+  color: #fff;
 }
 
-header h1 {
-  font-size: 24px;
-  letter-spacing: 1px;
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-nav ul {
+.nav-links {
   list-style: none;
   display: flex;
 }
 
-nav ul li {
-  margin: 0 15px;
+.nav-links li {
+  margin-left: 20px;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
+.nav-links a {
+  color: #fff;
+  padding: 8px 12px;
 }
 
-nav ul li a:hover {
-  color: #ffcc00;
+.nav-links a.active,
+.nav-links a:hover {
+  background: #006699;
+  border-radius: 5px;
 }
 
 /* Hero Section */
 .hero {
-  background: url("banner.jpg") no-repeat center center/cover;
-  color: white;
+  background: url("images/hero-bg.jpg") no-repeat center center/cover;
+  color: #fff;
   text-align: center;
-  padding: 100px 20px;
+  padding: 120px 20px;
 }
 
-.hero h2 {
-  font-size: 40px;
-  margin-bottom: 15px;
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
-.hero button {
-  padding: 12px 25px;
-  border: none;
-  background: #ffcc00;
-  color: #003366;
-  font-size: 16px;
-  cursor: pointer;
+.btn {
+  background: #006699;
+  color: #fff;
+  padding: 10px 20px;
   border-radius: 5px;
 }
 
-.hero button:hover {
-  background: #ffdb4d;
+.btn:hover {
+  background: #004466;
 }
 
-/* Section Styling */
-section {
-  padding: 60px 50px;
+/* About Section */
+.about {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.mission-vision div {
+  width: 30%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Quick Links */
+.quick-links {
+  padding: 50px 20px;
   text-align: center;
 }
 
-section h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #003366;
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
-/* About */
-.about {
-  background: white;
-  padding: 50px;
-  border-radius: 10px;
-  margin-bottom: 40px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* Services */
-.services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.service-box {
+.card {
+  width: 30%;
   background: #fff;
-  padding: 25px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
 }
 
-.service-box h3 {
-  margin-bottom: 10px;
-  color: #003366;
+.card img {
+  width: 100%;
+  border-radius: 8px;
 }
 
-.service-box p {
-  font-size: 15px;
+.card h3 {
+  margin: 15px 0;
 }
 
-/* Products */
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+/* Grid Pages */
+.grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
 }
 
-.product-card {
+.grid .card {
+  width: 30%;
+  text-align: center;
+}
+
+/* Contact Page */
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background: #f4f4f4;
+}
+
+.contact-form, .contact-info {
+  width: 45%;
   background: #fff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.product-card img {
-  max-width: 100%;
-  border-radius: 10px;
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
   margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.product-card h3 {
-  margin-bottom: 10px;
-  color: #003366;
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background: #006699;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background: #004466;
 }
 
 /* Footer */
 footer {
   background: #003366;
-  color: white;
+  color: #fff;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 15px;
+  margin-top: 20px;
 }

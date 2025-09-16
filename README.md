@@ -2,30 +2,25 @@
 
 # 🌞 ECOSTERLING IMPEX PRIVATE LIMITED Website
 
-This is a multi-page website for **Eazy Solar**, built to showcase solar products, services, and projects.
+This is a multi-page website for **ECOSTERLING IMPEX PRIVATE LIMITED**, built to showcase solar products, services, and projects.
 It is inspired by [Elsol](https://elsol.co.in/) but redesigned with a unique look and feel.
 
----
 ## 📂 Project Structure
 
 ```text
-eazy-solar-website/
-│
-├── index.html          # Home page
-├── about.html          # About Us
-├── products.html       # Products & Solutions
-├── projects.html       # Projects Showcase
-├── services.html       # Services
-├── contact.html        # Contact page
-│
-├── css/
-│   └── style.css       # Main stylesheet
-│
-├── img/                # Images (logo, banners, product photos)
-│
+ECOSTERLING_IMPEX/
+│── index.html         (Home with About)
+│── products.html      (Products)
+│── solutions.html     (Solutions)
+│── contact.html       (Contact)
+│── css/
+│   └── style.css       # Main stylesheet (Shared Styling)
+│── /images/           (Store your images here)
 └── README.md           # Project documentation
 
+
 ---
+
 
 ## 🚀 Deployment
 
@@ -43,7 +38,7 @@ This site is hosted on **GitHub Pages**.
 
 ## ✨ Features
 
-- Multi-page structure: Home, About, Products, Projects, Services, Contact
+- Multi-page structure: Home, Products,Solutions,Contact
 - Clean solar-themed design with orange + green highlights
 - Responsive layout (works on mobile, tablet, desktop)
 - Contact form integrated with **FormSubmit** (emails sent to `iampradeep26@gmail.com`)
