@@ -1,6 +1,6 @@
 
 
-# 🌞 Eazy Solar Website
+# 🌞 ECOSTERLING IMPEX PRIVATE LIMITED Website
 
 This is a multi-page website for **Eazy Solar**, built to showcase solar products, services, and projects.
 It is inspired by [Elsol](https://elsol.co.in/) but redesigned with a unique look and feel.
@@ -36,7 +36,7 @@ This site is hosted on **GitHub Pages**.
 2. Go to **Settings > Pages**.
 3. Under *Branch*, select `main` and set folder to `/ (root)`.
 4. Save and wait for a few minutes.
-5. Your site will be live at: https://<pradee2604>.github.io/eazy-solar-website/
+5. Your site will be live at: https://pradee2604.github.io/ECOSTERLING_IMPEX/
 
 
 ---
