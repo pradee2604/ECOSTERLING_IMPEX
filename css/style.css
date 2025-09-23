@@ -363,7 +363,26 @@
     transition-delay: .3s;
 }
 
+/* Read More link styling */
+.read-more-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  display: inline-block;
+}
 
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Smooth transition for expanding text */
+.read-more-text {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
 /*** Quote ***/
 @media (min-width: 992px) {
     .container.quote {
