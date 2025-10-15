@@ -52,7 +52,7 @@ This site is hosted on **GitHub Pages**.
 
 ## 📧 Contact
 
-For inquiries or contributions:  
+For inquiries:  
 **Email:** iampradeep26@gmail.com  
 
 
